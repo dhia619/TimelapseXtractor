@@ -4,7 +4,7 @@ from tkinter import filedialog
 class UI:
     def __init__(self):
         self.master = ctk.CTk()
-        self.master.title("Video Snapshot Tool")
+        self.master.title("TimelapseXtractor")
         self.master.geometry("500x400")
 
         # Variables
