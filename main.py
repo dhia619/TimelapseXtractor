@@ -60,6 +60,7 @@ class Application:
         out.release()
         messagebox.showinfo("Success", f"Snapshots taken every {interval} seconds. Video saved as {output_video_path}")
         self.ui.progress_bar.set(0)
+        self.ui.progress_bar_label.configure(text="0%")
 
 # Run the app
 if __name__ == "__main__":
